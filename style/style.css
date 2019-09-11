@@ -45,7 +45,7 @@ header {
 
 @media (max-width: 560px) {
   header {
-    height: 150px;
+    height: 100px;
   }
 }
 
@@ -76,7 +76,7 @@ header .navbar ul {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
-    height: 150px;
+    height: 100px;
   }
 }
 
@@ -99,6 +99,10 @@ header .navbar ul li a {
   text-decoration: none;
   color: #666D7B;
   font-weight: bold;
+}
+
+header .navbar ul li a:hover {
+  color: #e6e3e3;
 }
 
 @media (max-width: 560px) {
@@ -251,6 +255,13 @@ header .navbar ul .social-icons i {
     -webkit-transform: translateY(0);
             transform: translateY(0);
   }
+}
+
+#showcase .card-group .card:hover {
+  -webkit-transform: translateY(-30px);
+          transform: translateY(-30px);
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
 
 #showcase .center-btn {
@@ -687,6 +698,10 @@ footer .flex-3 .stay-in-touch {
 
 footer .flex-3 .stay-in-touch a {
   text-decoration: none;
+}
+
+footer .flex-3 .stay-in-touch i:hover {
+  color: #e6e3e3;
 }
 
 footer .flex-3 .stay-in-touch p {

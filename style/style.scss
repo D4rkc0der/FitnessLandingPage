@@ -71,7 +71,7 @@ header {
   height: 100px;
   background: $black-color;
   @include mobile(){
-    height: 150px;
+    height: 100px;
   }
 
   .navbar {
@@ -86,13 +86,14 @@ header {
       @include mobile(){
         flex-direction: column;
         justify-content: center;
-        height: 150px;
+        height: 100px;
       }
       .logo {
         i {
           color: $green-color;
           margin-right: 10px;
           font-size: 2rem;
+          
         }
 
         a {
@@ -110,6 +111,9 @@ header {
           text-decoration: none;
           color: $grey-color;
           font-weight: bold;
+          &:hover{
+            color: rgb(230, 227, 227);
+          }
         }
         @include mobile(){
           &:nth-child(2){
@@ -183,6 +187,8 @@ header {
       padding: 1.5rem;
       background: $black-color;
       margin-right: 20px;
+      
+      
 
       @include ipad() {
         margin-right: 0;
@@ -211,6 +217,7 @@ header {
             margin-right: 8px;
           }
         }
+        
       }
 
       .card-footer {
@@ -245,6 +252,10 @@ header {
         @include ipad() {
           transform: translateY(0);
         }
+      }
+      &:hover{
+        transform: translateY(-30px);
+        transition: 0.5s;
       }
     }
   }
@@ -593,6 +604,11 @@ footer{
       a{
         text-decoration: none;
         
+      }
+      i{
+        &:hover{
+          color: rgb(230, 227, 227);
+        }
       }
      
       p{
