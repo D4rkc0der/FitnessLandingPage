@@ -257,6 +257,12 @@ header {
         transform: translateY(-30px);
         transition: 0.5s;
       }
+      @include mobile(){
+        &:hover{
+          transform: translateY(0);
+          
+        }
+      }
     }
   }
 

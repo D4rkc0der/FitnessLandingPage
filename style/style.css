@@ -264,6 +264,13 @@ header .navbar ul .social-icons i {
   transition: 0.5s;
 }
 
+@media (max-width: 560px) {
+  #showcase .card-group .card:hover {
+    -webkit-transform: translateY(0);
+            transform: translateY(0);
+  }
+}
+
 #showcase .center-btn {
   -webkit-text-decoration-color: #A8D256;
           text-decoration-color: #A8D256;
