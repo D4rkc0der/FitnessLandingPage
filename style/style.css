@@ -102,7 +102,7 @@ header .navbar ul li a {
 }
 
 header .navbar ul li a:hover {
-  color: red;
+  color: #e6e3e3;
 }
 
 @media (max-width: 560px) {

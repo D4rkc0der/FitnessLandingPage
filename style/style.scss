@@ -112,7 +112,7 @@ header {
           color: $grey-color;
           font-weight: bold;
           &:hover{
-            color: red;
+            color: rgb(230, 227, 227);
           }
         }
         @include mobile(){
